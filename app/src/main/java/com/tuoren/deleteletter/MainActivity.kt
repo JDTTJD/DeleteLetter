@@ -15,6 +15,7 @@ class MainActivity : Activity() {
         ivDeleteText.setOnClickListener {
             this@MainActivity.etSearch.setText("")
         }
+        //提交
         this.etSearch.addTextChangedListener(object : TextWatcher {
             override fun onTextChanged(
                 s: CharSequence,
